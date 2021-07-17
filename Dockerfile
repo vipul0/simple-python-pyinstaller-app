@@ -1,5 +1,4 @@
-FROM python:3
+FROM alpine
 
 COPY sources/add2vals.pyc ./
 COPY sources/calc.pyc ./
-CMD [ "python", ".add2vals.pyc" ]
